@@ -1,5 +1,6 @@
 body{
     font-family: 'Arial', sans-serif;
+    
     margin: 0rem;
     padding: 0rem;
     background-color:  #4a7fa7
@@ -64,6 +65,7 @@ nav ul li a:hover{
 h2{
     text-align: center;
     background-color:  #1a3d63;
+    color: #f6fafd;
     padding: 1rem;
 }
 .Conoce {
