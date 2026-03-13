@@ -113,6 +113,8 @@ img:hover{
     border-radius: 0.875rem;
     margin: 0.8rem 0;
     box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
 }
 .Conocenos ul li a:hover{
     background-color:#b3cfe5;
