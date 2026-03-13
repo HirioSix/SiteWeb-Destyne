@@ -7,6 +7,7 @@ body{
 }
 header{
     background:  #0a1931;
+    color: #f6fafd;
     padding: 0.5rem 0;
 }
 header .encabezado{
@@ -55,7 +56,7 @@ nav ul li a {
 }
 nav ul li a:hover{
     margin: 1rem;
-    background-color: #ffffff;
+    background-color: #dbecf4;
     border-radius: 1rem;
     transform: scale(1.1);
     transform: 0.8s;
@@ -95,16 +96,16 @@ img:hover{
 }
 .Conocenos ul li a {
     text-decoration: solid;
-    color: #000000;
+     color:#f6fafd;
     font-size: x-large;
-    background-color:  #1a3d63;
+    background-color:#1a3d63;
     padding: 1.125rem;
     display: flex;
     border-radius: 0.875rem;
     margin: 2rem;
 }
 .Conocenos ul li a:hover{
-    background-color: #b3cfe5;
+    background-color:#b3cfe5;
     transform: scale(1.01);
     transition: 0.8s;
     transform: 1s;
