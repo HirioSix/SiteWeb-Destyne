@@ -1,3 +1,11 @@
+css* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+html, body {
+    overflow-x: hidden;
+}
 body{
     font-family: 'Arial', sans-serif;
     
@@ -14,6 +22,7 @@ header .encabezado{
     margin: 0 auto;
     width: 100%;
     padding: 0rem 1.5rem;
+    box-sizing: border-box;
 }
 nav  {
     display: flex;
@@ -49,7 +58,7 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     font-size: 1.3rem;
-    letter-spacing: 0.625rem;
+    letter-spacing: 0.2rem;
     color: #f6fafd;
     padding: 1.4rem 3rem;
 }
@@ -66,7 +75,8 @@ h2{
     text-align: center;
     background-color: #1a3d63;
     color: #d9e1f1;
-    padding: 1rem;
+    word-break: break-word;
+    padding: 1rem 0.5rem;
 }
 .Conoce {
     cursor: pointer;
@@ -101,7 +111,8 @@ img:hover{
     padding: 1.125rem;
     display: flex;
     border-radius: 0.875rem;
-    margin: 2rem;
+    margin: 0.8rem 0;
+    box-sizing: border-box;
 }
 .Conocenos ul li a:hover{
     background-color:#b3cfe5;
@@ -161,6 +172,6 @@ img:hover{
     .Conocenos ul li a {
         font-size: 1rem;
         padding: 0.8rem;
-        margin: 0.8rem 0.5rem;
+        margin: 0.8rem 0;
     }
 }
